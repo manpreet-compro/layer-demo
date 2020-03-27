@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "HelloWorld-LayerDemo"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-157f8gk9541wp"
+s3_prefix = "HelloWorld-LayerDemo"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
